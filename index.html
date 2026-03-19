@@ -3,15 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài Thực Hành 8 - Các nền tảng phát triển phần mềm</title>
+    <title>Trang web cá nhân của Thắng</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-        h1 { color: #2c3e50; }
-        p { color: #34495e; font-size: 18px; }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: white;
+            color: black;
+        }
+        h1 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .red-text {
+            color: red;
+            font-weight: bold;
+        }
+        .profile-container {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        /* Chỉnh kích thước và bo góc cho ảnh */
+        img {
+            width: 600px;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 <body>
-    <h1>Xin chào, đây là trang web của Thắng!</h1>
-    <p>Bài Thực hành 8: Triển khai website lên InfinityFree, GitHub Pages và Netlify.</p>
+    
+    <h1>WELCOME TO <span class="red-text">MY WEBSITE</span></h1>
+    
+    <div class="profile-container">
+        <p><span class="red-text">Profile:</span> Thông tin cá nhân</p>
+        <p>Họ và tên: ĐẶNG TOÀN THẮNG</p>
+        <p>Năm sinh: 2001</p>
+        <p>Trường: Đại học Văn Lang</p>
+        
+        <img src="anh-ca-nhan.jpg" alt="Portrait of Đặng Toàn Thắng, a student at Văn Lang University born in 2001, smiling at the camera with a neutral background">
+    </div>
+    
+    <p style="margin-top: 30px;">................</p>
+
 </body>
 </html>
